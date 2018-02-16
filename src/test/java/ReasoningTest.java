@@ -13,6 +13,6 @@ public class ReasoningTest {
     @Test
     public void ReasoningTest(){
         ClingoRunner runner = new ClingoRunner();
-        runner.checkIfSatisfiable(new File(configPath + "/rockPaperScissors.lp"), true);
+        runner.checkIfSatisfiable(new File(configPath + "/minMaxExample.lp"), true);
     }
 }
